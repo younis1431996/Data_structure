@@ -2,7 +2,7 @@
  ============================================================================
  Name        : Data_structure_stack_array_based.c
  Author      : Mahmoud Mohamed Younis
- Version     :
+ Version     : 1.0
  Copyright   : © 2021 oct younis.
  Description : Hello World in C, Ansi-style
  ============================================================================
