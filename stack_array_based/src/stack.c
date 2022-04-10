@@ -1,5 +1,5 @@
 /* inclusions */
-#include "stack.h"
+#include "../stack/stack.h"
 
 /* functions */
 void create_stack(Stack *ps){

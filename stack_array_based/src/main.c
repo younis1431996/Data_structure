@@ -12,7 +12,6 @@
 #include <stdlib.h>
 
 #include "../stack/stack.h"
-#include "../stack/stack.c"
 
 void display(StackEntry e){
     printf("%d\t", e);
