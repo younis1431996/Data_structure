@@ -17,11 +17,15 @@
 typedef int QueueEntry;
 
 /* queue structure */
+typedef struct queuenode{
+	QueueEntry entry;
+	struct queuenode *next;
+}QueueNode;
+
 typedef struct queue{
-	int front;
-	int rear;
+	QueueNode *front;
+	QueueNode *rear;
 	int size;
-	QueueEntry Entry[MaxQueue];
 }Queue;
 
 /* functions */

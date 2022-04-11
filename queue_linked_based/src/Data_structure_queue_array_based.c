@@ -16,7 +16,7 @@ void display(QueueEntry e){
 	printf("%d\t", e);
 }
 int main(void) {
-	int arr[5] = {10, 20, 30, 40, 50};
+	int arr[5] = {110, 120, 130, 140, 150};
 
 	Queue q;
 
